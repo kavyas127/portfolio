@@ -135,7 +135,7 @@ p{
     height: 100vh;
     width: 100vw;
     background-color: #FDEFF4;
-    display: block;
+    display: flex;
     position: relative;
 }
 
@@ -143,7 +143,7 @@ p{
     height: 100vh;
     width: 100vw;
     background-color: #B0A695;
-    display: block;
+    display: flex;
     position: relative;
 }
 
@@ -151,6 +151,6 @@ p{
     height: 100vh;
     width: 100vw;
     background-color: #FDEFF4;
-    display: block;
+    display: flex;
     position: relative;
 }
