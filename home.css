@@ -1,4 +1,10 @@
+@font-face {
+    font-family: bras;
+    src: url(fonts/BrasikaDisplay.ttf);
+}
+
 body {
+    font-family: bras;
     margin: 0;
     padding: 0;
     border: 0;
