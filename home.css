@@ -2,13 +2,15 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+    background-color: #B0A695;
     overflow-x: hidden;
 }
 
 .header{
     height: 10vh;
     width: 100vw;
-    background-color: yellow;
+    background-color: #B0A695;
+    color: #FDEFF4;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -34,9 +36,61 @@ body {
     top: 4.25rem;
     height: 100vh;
     width: 100vw;
-    background-color: #FF5C8D;
+    background-color: #B0A695;
     display: block;
     position: relative;
+}
+
+.first-up-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.first-image{
+    background-color: #FAEED1;
+    display: flex;
+    position: relative;
+    width: 25vw;
+    height: 70vh;
+    z-index: 9;
+    margin-top: 10rem;
+    margin-left: 16rem;
+}
+
+.first-left{
+    background-color: #B0A695;
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.first-right{
+    background-color: #B0A695;
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-right{
+    background-color: green;
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    z-index: 9;
+    align-items: center;
+    justify-content: center;
+}
+
+.end{
+    background-color: #524A4E;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    bottom: 0;
 }
 
 .second-part{
@@ -50,7 +104,7 @@ body {
 .third-part{
     height: 100vh;
     width: 100vw;
-    background-color: #FF5C8D;
+    background-color: #B0A695;
     display: block;
     position: relative;
 }
