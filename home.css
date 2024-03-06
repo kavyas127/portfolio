@@ -1,6 +1,11 @@
 @font-face {
-    font-family: bras;
+    font-family: brasika;
     src: url(fonts/BrasikaDisplay.ttf);
+}
+
+@font-face {
+    font-family: barbra;
+    src: url(fonts/Barbra-High.ttf);
 }
 
 body {
