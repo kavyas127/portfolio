@@ -79,12 +79,14 @@ body {
     align-items: right;
     flex-direction: column;
     padding-left: 4rem;
+    row-gap: 3rem;
 }
 
 h1{
     color: white;
     padding: 0;
     margin: 0;
+    font-size: 2.5rem;
 }
 
 .first-page-name{
@@ -100,4 +102,41 @@ h1{
     font-size: 3rem;
     transform: translateY(1rem);
 }
+
+.button-div{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+
+button{
+    cursor: pointer;
+}
+
+.resume{
+    color: #A10035;
+    height: 7vh;
+    width: 10vw;
+    border-radius: 5rem;
+    background-color: #FCE22A;
+    border: none;
+    font-size: 14px;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.talk{
+    height: 7vh;
+    width: 10vw;
+    border-radius: 5rem;
+    background-color: #A10035;
+    border: none;
+    font-size: 14px;
+    color: #FCE22A;
+    border: 2px solid #FCE22A;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+
 
