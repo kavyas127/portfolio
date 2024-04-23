@@ -126,6 +126,11 @@ button{
     font-weight: 600;
 }
 
+.resume:hover{
+    background-color: #fce32ae6;
+    border: 2px solid #FCE22A;
+}
+
 .talk{
     height: 7vh;
     width: 10vw;
