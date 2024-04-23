@@ -75,5 +75,29 @@ body {
     position: relative;
     width: 60vw;
     height: 100vh;
+    justify-content: center;
+    align-items: right;
+    flex-direction: column;
+    padding-left: 4rem;
+}
+
+h1{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.first-page-name{
+    color:#FCE22A;
+    font-family: brasika;
+    font-size: 4rem;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+}
+
+.first-line{
+    font-size: 3rem;
+    transform: translateY(1rem);
 }
 
