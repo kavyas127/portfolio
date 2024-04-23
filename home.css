@@ -27,6 +27,7 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+    overflow-x: hidden;
 }
 
 .header{
@@ -43,7 +44,7 @@ body {
 .name{
     color:#FCE22A;
     font-family: brasika;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .right-header{
@@ -52,7 +53,7 @@ body {
     column-gap: 3rem;
     transform:translateX(-6rem);
     font-family: poppins;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .flag{
@@ -138,5 +139,10 @@ button{
     font-weight: 600;
 }
 
-
+.second-page{
+    height: 100vh;
+    width: 100vw;
+    background-color: #B42B51;
+    display: flex;
+}
 
