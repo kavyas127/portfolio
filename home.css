@@ -170,7 +170,7 @@ button{
     align-items: right;
     flex-direction: column;
     padding-left: 4rem;
-    row-gap: 3rem;
+    row-gap: 2rem;
 }
 
 .about-me-heading{
@@ -184,4 +184,31 @@ button{
     font-family: poppins;
     color: white;
     font-size: 1.5rem;
+}
+
+.third-page{
+    height: 100vh;
+    width: 100vw;
+    background-color: #A10035;
+    display: flex;
+}
+
+.third-left{
+    display: flex;
+    position: relative;
+    width: 40vw;
+    height: 100vh;
+    justify-content: center;
+    padding-left: 4rem;
+}
+
+.third-right{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 60vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding-right: 4rem;
 }
