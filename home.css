@@ -208,14 +208,14 @@ button{
     font-size: 4rem;
     font-weight: 200;
     text-align: right;
-    margin-top: 2rem;
+    margin-top: 3rem;
     transform: translateX(11rem);
 }
 
 .third-right{
     display: flex;
     flex-direction: column;
-    row-gap: 3rem;
+    row-gap: 4rem;
     position: relative;
     width: 60vw;
     height: 100vh;
