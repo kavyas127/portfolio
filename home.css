@@ -202,13 +202,29 @@ button{
     padding-left: 4rem;
 }
 
+.skills-heading{
+    color:#FCE22A;
+    font-family: brasika;
+    font-size: 4rem;
+    font-weight: 200;
+    text-align: right;
+    margin-top: 2rem;
+    transform: translateX(11rem);
+}
+
 .third-right{
     display: flex;
     flex-direction: column;
+    row-gap: 3rem;
     position: relative;
     width: 60vw;
     height: 100vh;
     justify-content: center;
     align-items: center;
     padding-right: 4rem;
+}
+
+.collage{
+    height: 50vh;
+    width: 45vw;
 }
