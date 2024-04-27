@@ -208,8 +208,8 @@ button{
     font-size: 4rem;
     font-weight: 200;
     text-align: right;
-    margin-top: 3rem;
-    transform: translateX(11rem);
+    margin-top: 1.5rem;
+    transform: translateX(7rem);
 }
 
 .third-right{
@@ -227,4 +227,37 @@ button{
 .collage{
     height: 50vh;
     width: 45vw;
+}
+
+.fourth-page{
+    height: 100vh;
+    width: 100vw;
+    background-color: #B42B51;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.projects-title{
+    color:#FCE22A;
+    font-family: brasika;
+    font-size: 4rem;
+    font-weight: 200;
+}
+
+.four-wrapper{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+    margin-left: 0.75rem;
+}
+
+.four-element{
+    display: flex;
+    width: 20vw;
+    height: 60vh;
+    background-color: #A10035;
+    border-radius: 1rem;
 }
