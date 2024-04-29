@@ -375,3 +375,100 @@ button{
     color: #FCE22A;
     transform: translate(-35rem ,-2rem);
 }
+
+.sixth-page{
+    height: 100vh;
+    width: 100vw;
+    background-color: #B42B51;
+    display: flex;
+    flex-direction: column;
+}
+
+.six-top{
+    height: 80vh;
+    width: 100vw;
+    background-color: #B42B51;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-one{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    transform: translate(37rem, 3.5rem);
+}
+
+.six-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.six-box{
+    position: relative;
+    height: 80vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
+    transform: translateY(2rem);
+}
+
+.fa-location-dot{
+    transform: translateY(0.7rem);
+}
+
+.fa-regular{
+    font-size: 6rem;
+    color: #FCE22A;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+}
+
+.mail{
+    color: #A10035;
+    height: 7vh;
+    width: 10vw;
+    border-radius: 5rem;
+    background-color: #FCE22A;
+    border: none;
+    font-size: 1rem;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.mail:hover{
+    background-color: #fce32ae6;
+    border: 2px solid #FCE22A;
+}
+
+.location{
+    transform: translateY(0.3rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A10035;
+    height: 7vh;
+    width: 15vw;
+    border-radius: 5rem;
+    background-color: #FCE22A;
+    border: none;
+    font-size: 1rem;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.six-bottom{
+    height: 20vh;
+    width: 100vw;
+    background-color: #A10035;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    font-size: 1rem;
+    color: white;
+}
