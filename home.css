@@ -4,18 +4,12 @@
 }
 
 @font-face {
-    font-family: barbra;
-    src: url(fonts/Barbra-High.ttf);
-}
-
-@font-face {
-    font-family: kaftus;
-    src: url(fonts/Kaftus.ttf);
-}
-
-@font-face {
     font-family: poppins;
     src: url(fonts/Poppins-Regular.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 a{
