@@ -403,6 +403,7 @@ button{
 }
 
 .six-wrapper{
+    margin-top: 1rem;
     display: flex;
     flex-direction: row;
 }
@@ -423,7 +424,7 @@ button{
     transform: translateY(0.7rem);
 }
 
-.fa-regular{
+.fa-regular, .fa-youtube, .fa-linkedin{
     font-size: 6rem;
     color: #FCE22A;
     position: relative;
@@ -462,6 +463,10 @@ button{
     font-size: 1rem;
     font-family: poppins;
     font-weight: 600;
+}
+
+.location:hover{
+    background-color: #fce32ae6;
 }
 
 .six-bottom{
