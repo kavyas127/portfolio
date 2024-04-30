@@ -168,6 +168,20 @@ button{
     display: flex;
 }
 
+.second-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 100vh;
+}
+
+.sec-img{
+    height: 60vh;
+    width: 30vw;
+}
+
+
 .second-left{
     display: flex;
     position: relative;
@@ -200,12 +214,20 @@ button{
     display: flex;
 }
 
+.third-img{
+    margin-top: 2rem;
+    height: 70vh;
+    width: 47vw;
+}
+
+
 .third-left{
     display: flex;
     position: relative;
     width: 40vw;
     height: 100vh;
     justify-content: center;
+    align-items: center;
     padding-left: 4rem;
 }
 
@@ -399,7 +421,7 @@ button{
     position: absolute;
     display: flex;
     justify-content: center;
-    transform: translate(37rem, 3.5rem);
+    transform: translate(36.6rem, 3.5rem);
 }
 
 .six-wrapper{
